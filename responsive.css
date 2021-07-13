@@ -51,6 +51,10 @@
                max-width: 100%;
                width:100%;
        }
+       img{
+                width:100%;
+        }
+
 
 }
       
@@ -62,10 +66,14 @@
 @media (min-width: 320px) and (max-width: 480px) {
 /* CSS */
 
-.item{
-        width:100%;
-        max-width: 100%;
-}
+        .item{
+                width:100%;
+                max-width: 100%;
+
+        }
+        img{
+                width:100%;
+        }
       
         
 
