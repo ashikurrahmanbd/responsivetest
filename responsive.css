@@ -34,6 +34,14 @@
       
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
         /* CSS */
+        .item{
+                flex:33.33%;
+                max-width: calc(33.33% - 8px);
+
+        }
+        .item img{
+                width:100%;
+        }
 
 
 }
