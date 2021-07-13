@@ -46,7 +46,7 @@
 @media (min-width: 481px) and (max-width: 767px) {
         /* CSS */
 
-        
+        /* 2 image for tab or large smartphones */
         .item{
                 flex:50%;
                 max-width: calc(50% - 8px);
@@ -65,6 +65,7 @@
       
 @media (min-width: 320px) and (max-width: 480px) {
 /* CSS */
+
 
         .item{
                 flex:100%;
