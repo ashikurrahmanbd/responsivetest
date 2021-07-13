@@ -46,15 +46,9 @@
 @media (min-width: 481px) and (max-width: 767px) {
         /* CSS */
 
-        .container{
-                padding:10px;
-        }
-        .team:first-child{
-                margin-right:10px;
-        }
-       .team{
-               margin-right:0;
-               margin-bottom:10px;
+        
+       .item{
+               max-width: 100%;
        }
 
 }
@@ -67,13 +61,9 @@
 @media (min-width: 320px) and (max-width: 480px) {
 /* CSS */
 
-        .container{
-                padding:10px;
-        }
-       .team{
-               margin-right:0;
-               margin-bottom:10px;
-       }
+.item{
+        max-width: 100%;
+}
       
         
 

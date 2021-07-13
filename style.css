@@ -12,19 +12,17 @@ p{
         margin:0 auto;
 
 }
-
-.team-members{
+.photo-gallery{
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-between;
+
 }
-.team{
-       flex-grow: 1;
-        padding:100px;
-        color: #fff;
-        background-color: royalblue;
-        margin-right:10px;
+.item{
+        flex: 25%;
+        max-width: calc(25% - 8px);
+        padding:4px;
+
 }
-.team:last-child{
-        margin-right:0;
+.item img{
+
 }
