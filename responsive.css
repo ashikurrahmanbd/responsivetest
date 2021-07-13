@@ -47,14 +47,14 @@
         /* CSS */
 
         
-       .item{
-               max-width: 100%;
-               width:100%;
-       }
-       img{
+        .item{
+                flex:50%;
+                max-width: calc(50% - 8px);
+
+        }
+        .item img{
                 width:100%;
         }
-
 
 }
       
@@ -67,11 +67,11 @@
 /* CSS */
 
         .item{
-                width:100%;
+                flex:100%;
                 max-width: 100%;
 
         }
-        img{
+        .item img{
                 width:100%;
         }
       

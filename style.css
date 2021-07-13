@@ -24,5 +24,6 @@ p{
 
 }
 .item img{
-
+        width: 100%;
+        vertical-align: middle;
 }
