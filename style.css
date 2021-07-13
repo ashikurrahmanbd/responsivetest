@@ -1,0 +1,30 @@
+body{
+        margin:0;
+        padding:0;
+        
+}
+p{
+        margin:0;
+}
+.container{
+        width:100%;
+        max-width:1170px;
+        margin:0 auto;
+
+}
+
+.team-members{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+}
+.team{
+       flex-grow: 1;
+        padding:100px;
+        color: #fff;
+        background-color: royalblue;
+        margin-right:10px;
+}
+.team:last-child{
+        margin-right:0;
+}
